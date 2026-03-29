@@ -3,4 +3,4 @@ services:
     container_name: redis
     image: redis:7-alpine
     ports:
-      - "6565:6565"
+      - "6565:6379"
